@@ -1,0 +1,39 @@
+html {
+    background-color: #00ff95;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+body {
+    width: 80%;
+    min-height: calc(100vh - 4em);
+    margin: 0 auto;
+    padding: 2em;
+    background-color: #000000;
+    border-color: #300000;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 20px;
+}
+p {
+    color: #ffffff;
+    font-family: 'Teko', sans-serif;
+    font-size: 18.5pt;
+    line-height: 1.15;
+    margin: 4pt;
+}
+.button {
+    background-color: #ffffff;
+    font-family: 'Teko', sans-serif;
+    border: none;
+    border-radius: 8pt;
+    color: rgb(0, 0, 0);
+    padding: 8pt;
+    width: 50%;
+    min-width: 500pt;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 24pt;
+    margin: -2px auto;
+    cursor: pointer;
+}
